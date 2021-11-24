@@ -5,8 +5,8 @@
     --secondary-color: hsl(184, 100%, 22%);
     --tertiary-color: hsl(179, 100%, 13%);
     --main-color-p: hsla(0, 0%, 100%, 0.75);
-    --main-font:'Big Shoulders Display', cursive;
-    --secondary-font:'Lexend Deca', sans-serif;;
+    --main-font-family:'Big Shoulders Display', cursive;
+    --secondary-font-family:'Lexend Deca', sans-serif;;
 
 }
 
@@ -96,7 +96,7 @@
 }
 
 .sedans h1 {
-    font-family: var(--main-font);
+    font-family: var(--main-font-family);
     color: white;
     font-size: 50px;
     font-weight: lighter;
@@ -104,7 +104,7 @@
 
 .sedans p {
     color: var(--main-color-p);
-    font-family: var(--secondary-font);
+    font-family: var(--secondary-font-family);
     line-height: 1.6;
 
     width: 205px;
@@ -118,7 +118,7 @@
     width: 170px;
     height: 55px;
     font-size: 16px;
-    font-family: var(--secondary-font);
+    font-family: var(--secondary-font-family);
     font-weight: 400;
     position: absolute;
     top: 85%;
@@ -167,14 +167,14 @@
 }
 
 .suvs h1 {
-    font-family: var(--main-font);
+    font-family: var(--main-font-family);
     color: white;
     font-size: 50px;
 }
 
 .suvs p {
     color: var(--main-color-p);
-    font-family: var(--secondary-font);
+    font-family: var(--secondary-font-family);
     line-height: 1.6;
     width: 225px;
     font-weight: 400;
@@ -187,7 +187,7 @@
     width: 170px;
     height: 55px;
     font-size: 16px;
-    font-family: var(--secondary-font);
+    font-family: var(--secondary-font-family);
     font-weight: 400;
     position: absolute;
     top: 85%;
@@ -235,14 +235,14 @@
 }
 
 .luxury h1 {
-    font-family: var(--main-font);
+    font-family: var(--main-font-family);
     color: white;
     font-size: 50px;
 }
 
 .luxury p {
     color: var(--main-color-p);
-    font-family: var(--secondary-font);
+    font-family: var(--secondary-font-family);
     line-height: 1.6;
 
     width: 225px;
@@ -257,7 +257,7 @@
     height: 55px;
     font-weight: 400;
     font-size: 16px;
-    font-family: var(--secondary-font);
+    font-family: var(--secondary-font-family);
     position: absolute;
     top: 85%;
     transform: translateY(-50%);
